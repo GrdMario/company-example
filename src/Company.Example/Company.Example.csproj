@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>71662ab5-0465-421c-b3ff-a027bc12246d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Company.Example.Application\Company.Example.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Company.Example.Infrastructure.Database.Mssql\Company.Example.Infrastructure.Database.Mssql.csproj" />
+    <ProjectReference Include="..\Presentation\Company.Example.Presentation.Api\Company.Example.Presentation.Api.csproj" />
+  </ItemGroup>
+
+</Project>
